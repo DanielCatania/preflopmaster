@@ -1,0 +1,28 @@
+.footer {
+  color: white;
+  background-color: #262626;
+
+  width: 100%;
+  padding: 2em;
+
+  display: flex;
+  gap: 1em;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+  position: relative;
+  padding-bottom: 4em;
+}
+
+.footer__box {
+  min-width: 250px;
+  max-width: 500px;
+}
+
+.footer__madeby {
+  position: absolute;
+
+  bottom: 1.5em;
+
+  font-size: .75em;
+}
