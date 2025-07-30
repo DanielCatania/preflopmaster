@@ -14,6 +14,27 @@
   text-align: center;
 }
 
+.list {
+  padding: 2em;
+  gap: 2em;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#legend {
+  background-color: #ddd;
+  padding: 2em;
+
+  list-style: circle;
+  text-align: start;
+
+  min-width: 250px;
+  max-width: 600px;
+  height: fit-content;
+}
+
 .footer {
   color: white;
   background-color: #262626;

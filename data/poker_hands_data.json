@@ -1,0 +1,145 @@
+{
+  "categories": [
+    {
+      "name": "🟩 Jogar sempre",
+      "color": "#d4edda",
+      "desc": "Raise/3-bet (apostar/triplicar) em qualquer posição",
+      "hands": ["AA", "KK", "QQ", "AKs", "AKo", "JJ"]
+    },
+    {
+      "name": "🟨 Ajustar agressividade",
+      "color": "#fff3cd",
+      "desc": "Raise (apostar) ou call (pagar), dependendo da posição e oponentes",
+      "hands": [
+        "TT",
+        "AQs",
+        "AQo",
+        "AJs",
+        "KQs",
+        "99",
+        "ATs",
+        "KJs",
+        "QJs",
+        "JTs",
+        "AJo",
+        "KTs",
+        "QTs",
+        "88"
+      ]
+    },
+    {
+      "name": "🟦 Só em posição/barato",
+      "color": "#d1ecf1",
+      "desc": "Prefira posição late (no final da mesa) e pots limpos (pote sem apostas agressiva)",
+      "hands": [
+        "KQo",
+        "A9s",
+        "J9s",
+        "T9s",
+        "ATo",
+        "KJo",
+        "Q9s",
+        "77",
+        "A8s",
+        "K9s",
+        "JTo",
+        "A7s",
+        "66",
+        "T8s",
+        "QJo",
+        "A5s",
+        "A6s",
+        "98s",
+        "K8s",
+        "A4s",
+        "55",
+        "Q8s",
+        "A3s",
+        "J8s",
+        "A2s",
+        "T7s",
+        "87s",
+        "K7s",
+        "44",
+        "QTo"
+      ]
+    },
+    {
+      "name": "🟧 Soltinho",
+      "color": "#ffe5d0",
+      "desc": "Só se você já estiver soltinho, daquele jeito. Só jogue em posição muito favorável (no final da mesa) e contra oponentes passivos, dá para sonhar um blefe.",
+      "hands": [
+        "76s",
+        "65s",
+        "54s",
+        "K6s",
+        "Q6s",
+        "J7s",
+        "T6s",
+        "96s",
+        "85s",
+        "43s",
+        "33",
+        "22",
+        "K5s",
+        "Q5s",
+        "J6s",
+        "T5s",
+        "95s",
+        "84s",
+        "74s",
+        "64s",
+        "53s",
+        "42s",
+        "32s",
+        "K4s",
+        "Q4s"
+      ]
+    },
+    {
+      "name": "🟪 Louco/Sonhador",
+      "color": "#e8d6ff",
+      "desc": "Só se você for louco e sonhador. São mãos especulativas que exigem habilidade pós-flop (só para jogadores experientes).",
+      "hands": [
+        "K3s",
+        "Q3s",
+        "J5s",
+        "T4s",
+        "94s",
+        "83s",
+        "73s",
+        "63s",
+        "52s",
+        "K2s",
+        "Q2s",
+        "J4s",
+        "T3s",
+        "92s",
+        "82s"
+      ]
+    },
+    {
+      "name": "🟥 Fold sem Culpa",
+      "color": "#f8d7da",
+      "desc": "Mãos que são lixo na maioria das situações",
+      "hands": [
+        "72s",
+        "62s",
+        "J2s",
+        "T2s",
+        "93o",
+        "83o",
+        "73o",
+        "63o",
+        "52o",
+        "42o"
+      ]
+    }
+  ],
+  "legend": [
+    "No poker, a notação de mão segue a ordem decrescente das cartas, começando pelas de maior valor, seguida pelas de menor valor, e finalizando com a indicação do naipe. Por exemplo: AKs",
+    "Mãos não listadas devem ser consideradas FOLD na maioria dos casos",
+    "'s = suited (mesmo naipe)",
+    "'o = offsuit (naipes diferentes)"
+  ]
+}
