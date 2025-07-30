@@ -3,7 +3,9 @@ const $legend = document.getElementById("legend");
 
 async function app() {
   try {
-    const response = await fetch("../data/poker_hands_data.json");
+    const base = window.location.href.replace(/\/[^/]*$/, "/");
+
+    const response = await fetch(`${base}/data/poker_hands_data.json`);
 
     if (!response.ok) {
       throw new Error(`Erro HTTP! Status: ${response.status}`);
