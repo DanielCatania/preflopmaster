@@ -3,9 +3,7 @@ const $legend = document.getElementById("legend");
 
 async function app() {
   try {
-    const base = window.location.href.replace(/\/[^/]*$/, "/");
-
-    const response = await fetch(`${base}/data/poker_hands_data.json`);
+    const response = await fetch(`${window.location.href}/data.json`);
 
     if (!response.ok) {
       throw new Error(`Erro HTTP! Status: ${response.status}`);
@@ -48,8 +46,8 @@ async function app() {
       `;
     });
   } catch (error) {
-    alert("Não foi possível carregar o app!");
     console.error(error);
+    alert("Não foi possível carregar o app!");
     app();
   }
 }
