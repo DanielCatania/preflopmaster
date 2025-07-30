@@ -28,7 +28,7 @@
         "88",
         "ATo",
         "KJo",
-        "A9o"
+        "A9s"
       ]
     },
     {
@@ -39,7 +39,7 @@
         "Q9s",
         "J9s",
         "T9s",
-        "A9s",
+        "A9o",
         "K9s",
         "A8s",
         "A7s",
@@ -49,6 +49,7 @@
         "T8s",
         "98s",
         "QJo",
+        "KTo",
         "QTo",
         "JTo",
         "A5s",
@@ -60,7 +61,11 @@
         "T7s",
         "87s",
         "A8o",
-        "K9o"
+        "K9o",
+        "J8o",
+        "T7o",
+        "97s",
+        "86s"
       ]
     },
     {
@@ -70,14 +75,20 @@
       "hands": [
         "A7o",
         "A6o",
+        "A5o",
+        "A4o",
+        "A3o",
+        "A2o",
         "J9o",
         "T9o",
         "Q8o",
         "T8o",
         "98o",
         "87o",
-        "K7s",
-        "Q7s"
+        "Q7s",
+        "K8o",
+        "J7o",
+        "Q9o"
       ]
     },
     {
@@ -95,14 +106,16 @@
         "65s",
         "54s",
         "43s",
+        "75s",
         "85s",
         "64s",
         "74s",
         "53s",
-        "87s",
         "96s",
         "76o",
-        "65o"
+        "65o",
+        "97o",
+        "86o"
       ]
     },
     {
@@ -110,6 +123,8 @@
       "color": "#e8d6ff",
       "desc": "Só se você for louco e sonhador. Mãos fracas suited. Só entre se tiver no botão, todo mundo tiver passado e você tiver no clima de aprontar. Não vá com sede demais.",
       "hands": [
+        "K7o",
+        "Q7o",
         "K6s",
         "Q6s",
         "J7s",
@@ -131,7 +146,6 @@
         "73s",
         "63s",
         "52s",
-        "42s",
         "32s",
         "K2s",
         "Q2s",
@@ -139,18 +153,63 @@
         "T3s",
         "92s",
         "82s",
-        "Q9o",
-        "J7o",
-        "T7o",
-        "J8o",
-        "K8o"
+        "K6o",
+        "K5o",
+        "K4o",
+        "K3o",
+        "K2o",
+        "Q6o",
+        "Q5o",
+        "Q4o",
+        "Q3o",
+        "Q2o",
+        "J6o",
+        "J5o",
+        "J4o",
+        "J3s",
+        "J3o",
+        "J2s"
       ]
     },
     {
       "name": "🟥 Fold sem culpa",
       "color": "#f8d7da",
       "desc": "Lixo puro. Pode largar e seguir em paz. Não vale o risco.",
-      "hands": ["72s", "62s", "J2s", "T2s", "93o", "83o", "73o", "63o", "52o"]
+      "hands": [
+        "T6o",
+        "T5o",
+        "T4o",
+        "T3o",
+        "T2o",
+        "96o",
+        "95o",
+        "94o",
+        "92o",
+        "85o",
+        "84o",
+        "82o",
+        "75o",
+        "74o",
+        "64o",
+        "62o",
+        "43o",
+        "72s",
+        "62s",
+        "J2o",
+        "T2s",
+        "93s",
+        "93o",
+        "83o",
+        "73o",
+        "63o",
+        "52o",
+        "42o",
+        "32o",
+        "53o",
+        "54o",
+        "42s",
+        "72o"
+      ]
     }
   ],
   "legend": [
