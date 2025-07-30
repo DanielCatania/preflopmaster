@@ -27,11 +27,12 @@
         "QTs",
         "88",
         "ATo",
-        "KJo"
+        "KJo",
+        "A9o"
       ]
     },
     {
-      "name": "🟦 Só em posição/barato",
+      "name": "🟦 Bons em posição/barato",
       "color": "#d1ecf1",
       "desc": "Prefira posição late (CO ou BTN - final da mesa) e pots limpos (pote sem apostas agressiva), quando ninguém foi muito agressivo ainda. Dá pra blefar ou achar um valor escondido.",
       "hands": [
@@ -57,17 +58,36 @@
         "A2s",
         "K7s",
         "T7s",
-        "87s"
+        "87s",
+        "A8o",
+        "K9o"
       ]
     },
     {
-      "name": "⬜ Jogar barato por trinca",
+      "name": "🟫 Tá soltinho",
+      "color": "#ececec",
+      "desc": "Quando você tá soltinho e quer arriscar ou blefar fora de posição. Evite abusar, mas se tiver stack e leitura, dá pra aprontar.",
+      "hands": [
+        "A7o",
+        "A6o",
+        "J9o",
+        "T9o",
+        "Q8o",
+        "T8o",
+        "98o",
+        "87o",
+        "K7s",
+        "Q7s"
+      ]
+    },
+    {
+      "name": "⬜ Dupla de três",
       "color": "#f0f0f0",
-      "desc": "Pares baixos são bons se for bem baratinho e tiver chance de bater uma trinca (3 cartas iguais). Evite se o stack for pequeno.",
+      "desc": "Igual na época da escola, você quer fazer uma dupla de três. Pares baixos são bons se for bem baratinho e tiver chance de bater uma trinca (3 cartas iguais). Evite se o stack for pequeno.",
       "hands": ["77", "66", "55", "44", "33", "22"]
     },
     {
-      "name": "🟧 Soltinho estratégico",
+      "name": "🟧 Conexão e visão",
       "color": "#ffe5d0",
       "desc": "Conectadas do mesmo naipe. Jogável só se tiver em posição e a mesa for tranquila. Dá pra sonhar com sequência, flush ou blefe.",
       "hands": [
@@ -80,7 +100,9 @@
         "74s",
         "53s",
         "87s",
-        "96s"
+        "96s",
+        "76o",
+        "65o"
       ]
     },
     {
@@ -116,7 +138,12 @@
         "J4s",
         "T3s",
         "92s",
-        "82s"
+        "82s",
+        "Q9o",
+        "J7o",
+        "T7o",
+        "J8o",
+        "K8o"
       ]
     },
     {
