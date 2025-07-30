@@ -3,13 +3,13 @@
     {
       "name": "🟩 Jogar sempre",
       "color": "#d4edda",
-      "desc": "Raise/3-bet (apostar/triplicar) em qualquer posição",
+      "desc": "Raise/3-bet (apostar/triplicar) de qualquer lugar da mesa",
       "hands": ["AA", "KK", "QQ", "AKs", "AKo", "JJ"]
     },
     {
       "name": "🟨 Ajustar agressividade",
       "color": "#fff3cd",
-      "desc": "Raise (apostar) ou call (pagar), dependendo da posição e oponentes",
+      "desc": "Raise (apostar) ou call (pagar) dependendo de onde você tá e quem tá na mão. Forte, mas dá ruim se jogar sem pensar.",
       "hands": [
         "TT",
         "AQs",
@@ -22,85 +22,84 @@
         "QJs",
         "JTs",
         "AJo",
+        "KQo",
         "KTs",
         "QTs",
-        "88"
+        "88",
+        "ATo",
+        "KJo"
       ]
     },
     {
       "name": "🟦 Só em posição/barato",
       "color": "#d1ecf1",
-      "desc": "Prefira posição late (no final da mesa) e pots limpos (pote sem apostas agressiva)",
+      "desc": "Prefira posição late (CO ou BTN - final da mesa) e pots limpos (pote sem apostas agressiva), quando ninguém foi muito agressivo ainda. Dá pra blefar ou achar um valor escondido.",
       "hands": [
-        "KQo",
-        "A9s",
+        "Q9s",
         "J9s",
         "T9s",
-        "ATo",
-        "KJo",
-        "Q9s",
-        "77",
-        "A8s",
+        "A9s",
         "K9s",
-        "JTo",
+        "A8s",
         "A7s",
-        "66",
+        "K8s",
+        "Q8s",
+        "J8s",
         "T8s",
+        "98s",
         "QJo",
+        "QTo",
+        "JTo",
         "A5s",
         "A6s",
-        "98s",
-        "K8s",
         "A4s",
-        "55",
-        "Q8s",
         "A3s",
-        "J8s",
         "A2s",
-        "T7s",
-        "87s",
         "K7s",
-        "44",
-        "QTo"
+        "T7s",
+        "87s"
       ]
     },
     {
-      "name": "🟧 Soltinho",
+      "name": "⬜ Jogar barato por trinca",
+      "color": "#f0f0f0",
+      "desc": "Pares baixos são bons se for bem baratinho e tiver chance de bater uma trinca (3 cartas iguais). Evite se o stack for pequeno.",
+      "hands": ["77", "66", "55", "44", "33", "22"]
+    },
+    {
+      "name": "🟧 Soltinho estratégico",
       "color": "#ffe5d0",
-      "desc": "Só se você já estiver soltinho, daquele jeito. Só jogue em posição muito favorável (no final da mesa) e contra oponentes passivos, dá para sonhar um blefe.",
+      "desc": "Conectadas do mesmo naipe. Jogável só se tiver em posição e a mesa for tranquila. Dá pra sonhar com sequência, flush ou blefe.",
       "hands": [
         "76s",
         "65s",
         "54s",
+        "43s",
+        "85s",
+        "64s",
+        "74s",
+        "53s",
+        "87s",
+        "96s"
+      ]
+    },
+    {
+      "name": "🟪 Louco e sonhador",
+      "color": "#e8d6ff",
+      "desc": "Só se você for louco e sonhador. Mãos fracas suited. Só entre se tiver no botão, todo mundo tiver passado e você tiver no clima de aprontar. Não vá com sede demais.",
+      "hands": [
         "K6s",
         "Q6s",
         "J7s",
         "T6s",
-        "96s",
-        "85s",
-        "43s",
-        "33",
-        "22",
         "K5s",
         "Q5s",
         "J6s",
         "T5s",
         "95s",
         "84s",
-        "74s",
-        "64s",
-        "53s",
-        "42s",
-        "32s",
         "K4s",
-        "Q4s"
-      ]
-    },
-    {
-      "name": "🟪 Louco/Sonhador",
-      "color": "#e8d6ff",
-      "desc": "Só se você for louco e sonhador. São mãos especulativas que exigem habilidade pós-flop (só para jogadores experientes).",
-      "hands": [
+        "Q4s",
         "K3s",
         "Q3s",
         "J5s",
@@ -110,6 +109,8 @@
         "73s",
         "63s",
         "52s",
+        "42s",
+        "32s",
         "K2s",
         "Q2s",
         "J4s",
@@ -119,27 +120,18 @@
       ]
     },
     {
-      "name": "🟥 Fold sem Culpa",
+      "name": "🟥 Fold sem culpa",
       "color": "#f8d7da",
-      "desc": "Mãos que são lixo na maioria das situações",
-      "hands": [
-        "72s",
-        "62s",
-        "J2s",
-        "T2s",
-        "93o",
-        "83o",
-        "73o",
-        "63o",
-        "52o",
-        "42o"
-      ]
+      "desc": "Lixo puro. Pode largar e seguir em paz. Não vale o risco.",
+      "hands": ["72s", "62s", "J2s", "T2s", "93o", "83o", "73o", "63o", "52o"]
     }
   ],
   "legend": [
-    "No poker, a notação de mão segue a ordem decrescente das cartas, começando pelas de maior valor, seguida pelas de menor valor, e finalizando com a indicação do naipe. Por exemplo: AKs",
-    "Mãos não listadas devem ser consideradas FOLD na maioria dos casos",
+    "No poker, a notação de mão usa duas letras: a carta mais alta vem primeiro, depois a menor e a indicação do naipe. Ex: AKs = Ás e Rei do mesmo naipe.",
+    "Mãos não listadas devem ser consideradas FOLD",
     "'s = suited (mesmo naipe)",
-    "'o = offsuit (naipes diferentes)"
+    "'o = offsuit (naipes diferentes)",
+    "BTN = botão (último a jogar)",
+    "CO = cutoff (antes do botão)"
   ]
 }
